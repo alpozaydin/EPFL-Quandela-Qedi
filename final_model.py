@@ -37,7 +37,7 @@ N_PHOTONS   = 3
 N_ENCODE    = 5
 N_LAYERS    = 5
 N_RESERVOIRS = 5
-RIDGE_ALPHA = 10.0
+RIDGE_ALPHA = 0.1
 LEX_OUT     = 10     # LexGrouping output dimension per reservoir
 
 TOTAL_ENC   = N_ENCODE * N_LAYERS  # 25
