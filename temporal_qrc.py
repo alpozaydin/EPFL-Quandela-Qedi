@@ -59,7 +59,7 @@ N_MODES         = N_INPUT_MODES + N_MEMORY_MODES  # 8
 N_PHOTONS       = 3
 N_RESERVOIRS    = 3      # different random seeds
 N_VIRTUAL_NODES = 3      # post-processing depths (1, 2, 3)
-RIDGE_ALPHA     = 10.0
+RIDGE_ALPHA     = 0.1
 USE_LEXGROUPING = True   # compress reservoir output
 LEX_OUT         = 10     # LexGrouping output dimension per circuit
 
